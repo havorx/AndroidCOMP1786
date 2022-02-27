@@ -14,7 +14,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.androidcw.R;
+import com.example.androidcomp1786.R;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -126,9 +126,7 @@ public class MainActivity extends AppCompatActivity {
             if (reporterNameState) {
                 this.reporter_name.setError("Please enter a reporter's name");
             }
-        }
-
-        else {
+        } else {
             Toast submitToast = Toast.makeText(MainActivity.this, "Property submitted!", Toast.LENGTH_SHORT);
             submitToast.show();
         }
